@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'fd';
+    src: url(../fonts/Fredoka/Fredoka-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: 'ms';
+    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+*{
+    font-family: 'fd', sans-serif;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.nav-link{
+    color: white;
+}
+
+h1{
+    font-family: 'ms', sans-serif;
+}
+
+.sec-img{
+    background: url(../img/about.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    min-height: 500px;
+}
+
+.icon{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+@media (max-width:450px) {
+    .navbar-brand{
+        font-weight: bold;
+        font-size: 15px;
+    }
+    
+    .nav-link{
+        color: white;
+    }
+    
+    h1{
+        font-family: 'ms', sans-serif;
+        font-size: 15px;
+    }
+
+    h2{
+        font-size: 15px;
+    }
+
+    p{
+        font-size: 10px;
+    }
+
+    .btn{
+        font-size: 10px;
+    }
+    
+    .sec-img{
+        background: url(../img/about.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 100%;
+        min-height: 250px;
+    }
+    
+    .icon{
+        max-width: 100px;
+        max-height: 100px;
+    }
+}
